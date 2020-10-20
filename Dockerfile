@@ -1,4 +1,4 @@
-FROM ace-only:latest
+FROM ace:latest
 
 USER root
 COPY ConsumoWSGenerico.bar /home/aceuser/bars
