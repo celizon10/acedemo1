@@ -1,7 +1,7 @@
 FROM ibmcom/ace:latest
 ENV LICENSE=accept
 USER root
-COPY ConsumoWSGenerico.bar /home/aceuser/bars
+COPY ConsumoWSGenerico.bar /home/aceuser/bars/
 RUN  chmod -R ugo+rwx /home/aceuser
 
 USER aceuser
