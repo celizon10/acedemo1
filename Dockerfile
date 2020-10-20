@@ -5,7 +5,7 @@ COPY ConsumoWSGenerico.bar /home/aceuser/bars
 RUN  chmod -R ugo+rwx /home/aceuser
 
 USER aceuser
-RUN ace_compile_bars.sh
+RUN source /opt/ibm/ace-11/server/bin/mqsiprofile && ace_compile_bars.sh
 
 USER root
 RUN  chmod -R ugo+rwx /home/aceuser
