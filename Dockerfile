@@ -1,4 +1,4 @@
-FROM ace:latest
+FROM ibmcom/ace:latest
 
 USER root
 COPY ConsumoWSGenerico.bar /home/aceuser/bars
